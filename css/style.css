@@ -4,7 +4,7 @@
 }
 
 .search-cart-nav ul.right {
-    right: 70px;
+    right: 20px;
 }
 
 .search-cart-nav ul.right {
@@ -30,6 +30,12 @@
 
 .top-margin {
 	margin-top: 60px;
+}
+
+/* welcome */
+.welcome-text {
+    margin-top: 2rem;
+    left: 16px;
 }
 
 /* slide-float-left*/

@@ -40,50 +40,53 @@
             </li>
           </ul>
         </div>
-         <!-- ! search-cart-nav -->
-            <div class="search-cart-nav">
-              <ul class="navbar-nav mr-auto right">
-            <li class="nav-item search">
-              <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-            </li><!--/.search-->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cog"></i></a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Profile</a>
-                <a class="dropdown-item" href="#">Account</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Logout</a>
-              </div>
-            </li>
-             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Item(s)  <span class="centered">Quality</span> <span class="pull-right">Price</span></a>
-                <a class="dropdown-item" href="#">Vans 1   <span class="centered">1</span><span class="pull-right">200</span></a>
-                <a class="dropdown-item" href="#">Jordan x <span class="centered">1</span> <span class="pull-right">200</span></a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Total price <span class="pull-right">400</span></a>
-              </div>
-            </li>
-            </ul>
-          </div> 
-          <!-- end search -->
       </div>
-      </nav>
+      <!-- ! search-cart-nav -->
+      <div class="search-cart-nav pull-right">
+        <ul class="navbar-nav mr-auto right">
+          <li class="nav-item search">
+            <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+          </li>
+          <!--/.search-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cog"></i></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Profile</a>
+              <a class="dropdown-item" href="#">Account</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Logout</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Item(s)  <span class="centered">Quality</span> <span class="pull-right">Price</span></a>
+              <a class="dropdown-item" href="#">Vans 1   <span class="centered">1</span><span class="pull-right">200</span></a>
+              <a class="dropdown-item" href="#">Jordan x <span class="centered">1</span> <span class="pull-right">200</span></a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Total price <span class="pull-right">400</span></a>
+            </div>
+          </li>
+        </ul>
+      </div> 
+      <!-- end search -->
+    </nav>
       <!-- welcome -->
       <section class="container-fluid top-margin">
         <div class="row">
           <div class="col-md-6 col-sm-6 col-lg-6">
-            <div class="jumbotron">
-              <h2>Built <span>for flight</span></h2>
+            <div class="jumbotron welcome-text">
+              <h2>Built <span >for flight</span></h2>
               <p class="lead">Introducing product name. Our lightest shoe, ever.</p>
+
+              <button type="button" class="btn btn-dark btn-lg">Shop Now</button>
             </div>
-            <button type="button" class="btn btn-dark">Shop Now</button>
+            
             
           </div>
           <div class="col-md-6 col-sm-6 col-lg-6">
             <div class="welcome">
-              <img src="img/welcome-shoe.jpg">
+              <img src="img/welcome-shoe.jpg" class="img-fluid">
             </div>
           </div>
         </div>
@@ -91,7 +94,8 @@
       <!-- categories -->
       <section class="container-fluid">
         <div class="row">
-          <div class="col-md-6 col-sm-6">
+          <div class="col-md-1 col-sm-1"></div>
+          <div class="col-md-5 col-sm-5">
             <div class="card mb-3">
               <img src="img/welcome-men.jpg" class="card-img-top img-fluid" alt="...">
               <div class="card-img-overlay">
@@ -102,7 +106,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-sm-6 ">
+          <div class="col-md-5 col-sm-5 ">
             <div class="card mb-3">
               <img src="img/welcome-shoe.jpg" class="card-img-top img-fluid" alt="...">
               <div class="card-img-overlay">
@@ -113,6 +117,7 @@
               </div>
             </div>
         </div>
+        <div class="col-md-1 col-sm-1"></div>
       </div>
       </section>
       <!-- end categories -->
@@ -144,12 +149,12 @@
         
           <div class="col-md-3 col-sm-12 slider-float-left">
             <div class="card">
-              <img src="img/xjordan.jpg" class="card-img-top" alt="...">
+              <img src="img/official-men.jpg" class="card-img-top img-fluid" alt="...">
               <div class="card-img-overlay">
                 <h5 class="card-title sale-ticker-bg"><span class="sale-ticker">Sale</span></h5>
               </div>
               <div class="card-body">
-                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</a>
+                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"> Add to Cart</i></a>
                 <h6 class="card-title">Jordan X</h6>
                 <p class="text-muted">Ksh <span>1000</span></p>
               </div>
@@ -157,12 +162,12 @@
         </div>
         <div class="col-md-3 col-sm-12 slider-float-left">
             <div class="card">
-              <img src="img/xjordan.jpg" class="card-img-top" alt="...">
+              <img src="img/dark-brown.jpg" class="card-img-top img-fluid" alt="...">
               <div class="card-img-overlay">
                 <h5 class="card-title sale-ticker-bg"><span class="sale-ticker">Sale</span></h5>
               </div>
               <div class="card-body">
-                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</a>
+                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"> Add to Cart</i></a>
                 <h6 class="card-title">Jordan X</h6>
                 <p class="text-muted">Ksh <span>1000</span></p>
               </div>
@@ -170,12 +175,12 @@
         </div>
         <div class="col-md-3 col-sm-12 slider-float-left">
             <div class="card">
-              <img src="img/xjordan.jpg" class="card-img-top" alt="...">
+              <img src="img/official-women.jpg" class="card-img-top img-fluid" alt="...">
               <div class="card-img-overlay">
                 <h5 class="card-title new-ticker-bg"><span class="new-ticker">New</span></h5>
               </div>
               <div class="card-body">
-                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</a>
+                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"> Add to Cart</i></a>
                 <h6 class="card-title">Jordan X</h6>
                 <p class="text-muted">Ksh <span>1000</span></p>
               </div>
@@ -183,12 +188,12 @@
         </div>
         <div class="col-md-3 col-sm-12 slider-float-left">
             <div class="card">
-              <img src="img/xjordan.jpg" class="card-img-top" alt="...">
+              <img src="img/heel-dress.jpg" class="card-img-top img-fluid" alt="...">
               <div class="card-img-overlay">
                  <h5 class="card-title sale-ticker-bg"><span class="sale-ticker">Sale</span></h5>
               </div>
               <div class="card-body">
-                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</a>
+                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"> Add to Cart</i></a>
                 <h6 class="card-title">Jordan X</h6>
                 <p class="text-muted">Ksh <span>1000</span></p>
               </div>
@@ -200,12 +205,12 @@
     <div class="carousel-item">
         <div class="col-md-3 col-sm-12 slider-float-left">
             <div class="card">
-              <img src="img/xjordan.jpg" class="card-img-top" alt="...">
+              <img src="img/blue-official.jpg" class="card-img-top img-fluid" alt="...">
               <div class="card-img-overlay">
                 <h5 class="card-title new-ticker-bg"><span class="new-ticker">New</span></h5>
               </div>
               <div class="card-body">
-                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</a>
+                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"> Add to Cart</i></a>
                 <h6 class="card-title">Jordan X</h6>
                 <p class="text-muted">Ksh <span>1000</span></p>
               </div>
@@ -213,12 +218,12 @@
         </div>
         <div class="col-md-3 col-sm-12 slider-float-left">
             <div class="card">
-              <img src="img/xjordan.jpg" class="card-img-top" alt="...">
+              <img src="img/light-brown.jpg" class="card-img-top img-fluid" alt="...">
               <div class="card-img-overlay">
                 <h5 class="card-title new-ticker-bg"><span class="new-ticker">New</span></h5>
               </div>
               <div class="card-body">
-                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</a>
+                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"> Add to Cart</i></a>
                 <h6 class="card-title">Jordan X</h6>
                 <p class="text-muted">Ksh <span>1000</span></p>
               </div>
@@ -226,12 +231,12 @@
         </div>
          <div class="col-md-3 col-sm-12 slider-float-left">
             <div class="card">
-              <img src="img/xjordan.jpg" class="card-img-top" alt="...">
+              <img src="img/small-girls.jpg" class="card-img-top img-fluid" alt="...">
               <div class="card-img-overlay">
                 <h5 class="card-title sale-ticker-bg"><span class="sale-ticker">Sale</span></h5>
               </div>
               <div class="card-body">
-                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</a>
+                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"> Add to Cart</i></a>
                 <h6 class="card-title">Jordan X</h6>
                 <p class="text-muted">Ksh <span>1000</span></p>
               </div>
@@ -239,12 +244,12 @@
         </div>
         <div class="col-md-3 col-sm-12 slider-float-left">
             <div class="card">
-              <img src="img/xjordan.jpg" class="card-img-top" alt="...">
+              <img src="img/casual-girl.jpg" class="card-img-top img-fluid" alt="...">
               <div class="card-img-overlay">
                 <h5 class="card-title sale-ticker-bg"><span class="sale-ticker">Sale</span></h5>
               </div>
               <div class="card-body">
-                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</a>
+                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"> Add to Cart</i></a>
                 <h6 class="card-title">Jordan X</h6>
                 <p class="text-muted">Ksh <span>1000</span></p>
               </div>
@@ -283,12 +288,12 @@
 
           <div class="col-md-3 col-sm-12 slider-float-left">
             <div class="card">
-              <img src="img/xjordan.jpg" class="card-img-top" alt="...">
+              <img src="img/casual-wear.png" class="card-img-top img-fluid" alt="...">
               <div class="card-img-overlay">
                 <h5 class="card-title new-ticker-bg"><span class="new-ticker">New</span></h5>
               </div>
               <div class="card-body">
-                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</a>
+                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"> Add to Cart</i></a>
                 <h6 class="card-title">Jordan X</h6>
                 <p class="text-muted">Ksh <span>1000</span></p>
               </div>
@@ -296,7 +301,7 @@
         </div>
         <div class="col-md-3 col-sm-12 slider-float-left">
             <div class="card">
-              <img src="img/xjordan.jpg" class="card-img-top" alt="...">
+              <img src="img/summer-wear.jpg" class="card-img-top img-fluid" alt="...">
               <div class="card-img-overlay">
                 <h5 class="card-title sale-ticker-bg"><span class="sale-ticker">Sale</span></h5>
               </div>
@@ -309,7 +314,7 @@
         </div>
          <div class="col-md-3 col-sm-12 slider-float-left">
             <div class="card">
-              <img src="img/xjordan.jpg" class="card-img-top" alt="...">
+              <img src="img/women-casual.jpg" class="card-img-top img-fluid" alt="...">
               <div class="card-img-overlay">
                  <h5 class="card-title sale-ticker-bg"><span class="sale-ticker">Sale</span></h5>
               </div>
@@ -322,7 +327,7 @@
         </div>
         <div class="col-md-3 col-sm-12 slider-float-left">
             <div class="card">
-              <img src="img/xjordan.jpg" class="card-img-top" alt="...">
+              <img src="img/pink-casual.jpg" class="card-img-top" alt="...">
               <div class="card-img-overlay">
                 <h5 class="card-title sale-ticker-bg"><span class="sale-ticker">Sale</span></h5>
               </div>
@@ -339,7 +344,7 @@
     <div class="carousel-item">
         <div class="col-md-3 col-sm-12 slider-float-left">
             <div class="card">
-              <img src="img/xjordan.jpg" class="card-img-top" alt="...">
+              <img src="img/girls-wear.jpg" class="card-img-top" alt="...">
               <div class="card-img-overlay">
                 <h5 class="card-title new-ticker-bg"><span class="new-ticker">New</span></h5>
               </div>
@@ -352,7 +357,7 @@
         </div>
         <div class="col-md-3 col-sm-12 slider-float-left">
             <div class="card">
-              <img src="img/xjordan.jpg" class="card-img-top" alt="...">
+              <img src="img/girls-pink.jpg" class="card-img-top" alt="...">
               <div class="card-img-overlay">
                 <h5 class="card-title new-ticker-bg"><span class="new-ticker">New</span></h5>
               </div>
@@ -365,7 +370,7 @@
         </div>
         <div class="col-md-3 col-sm-12 slider-float-left">
             <div class="card">
-              <img src="img/xjordan.jpg" class="card-img-top" alt="...">
+              <img src="img/boys-wear.png" class="card-img-top" alt="...">
               <div class="card-img-overlay">
                 <h5 class="card-title sale-ticker-bg"><span class="sale-ticker">Sale</span></h5>
               </div>
@@ -378,7 +383,7 @@
         </div>
          <div class="col-md-3 col-sm-12 slider-float-left">
             <div class="card">
-              <img src="img/xjordan.jpg" class="card-img-top" alt="...">
+              <img src="img/boys-black.jpg" class="card-img-top" alt="...">
               <div class="card-img-overlay">
                 <h5 class="card-title sale-ticker-bg"><span class="sale-ticker">Sale</span></h5>
               </div>
