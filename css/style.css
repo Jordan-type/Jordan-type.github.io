@@ -30,12 +30,41 @@
 
 .top-margin {
 	margin-top: 60px;
+    margin-right: 30px;
+}
+
+/* checkout */
+.top-margin-checkout {
+   margin-top: 70px; 
 }
 
 /* welcome */
 .welcome-text {
     margin-top: 2rem;
     left: 16px;
+}
+
+#jumbo {
+    /* IE8 and below */
+    /*background: rgb(200, 54, 54);*/
+    /* all other browsers */
+    background: rgba(247, 247, 247, 0.5);
+}
+
+.background-img {
+  background-image: url("../img/welcome-shoe.jpg");
+  background-size: cover;
+}
+
+.title-top {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.welcome-cat {
+    margin-top: 60px;
+    margin-right: 20px;
 }
 
 /* slide-float-left*/
@@ -112,4 +141,10 @@ ol.footer {
   list-style-type: none;
 }
 
+
+/* checkout-page */
+span.price-cart {
+    float: right;
+    color: grey;
+}
 

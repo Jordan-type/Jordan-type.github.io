@@ -9,7 +9,7 @@
   </head>
   <body>
       <nav class="navbar nav-boot navbar-expand-lg fixed-top navbar-light bg-light navbar-fixed">
-        <a class="navbar-brand" href="#">Viatu Duka</a>
+        <a class="navbar-brand" href="index.html">Viatu Duka</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fa fa-bars"></i>
         </button>
@@ -18,16 +18,16 @@
           <div class="collapse navbar-collapse pull-right" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Women</a>
+              <a class="nav-link" href="women.html">Women</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Men</a>
+              <a class="nav-link" href="men.html">Men</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Kids</a>
+              <a class="nav-link" href="kids.html">Kids</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accessories</a>
@@ -65,6 +65,7 @@
               <a class="dropdown-item" href="#">Jordan x <span class="centered">40</span> <span class="text-right">200</span></a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">Total price <span class="centered">40</span> <span class="pull-right">400</span></a>
+              <a href="checkout.html" role="button" class="btn btn-danger btn-lg centered">checkout</a>
             </div>
           </li>
         </ul>
@@ -73,36 +74,30 @@
     </nav>
     <!-- end navigation -->
       <!-- welcome -->
-      <section class="container-fluid top-margin">
+      <section class="container-fluid top-margin background-img">
         <div class="row">
-          <div class="col-md-6 col-sm-6 col-lg-6">
-            <div class="jumbotron welcome-text">
-              <h2>Built <span >for flight</span></h2>
-              <p class="lead">Introducing product name. Our lightest shoe, ever.</p>
-
+          <div class="col-md-4 col-sm-4 col-lg-4">
+            <div class="jumbotron welcome-text" id="jumbo">
+              <h1 class="sub-title">Built</h1>
+              <h1 class="title">for flight</h1>
+              <p class="lead">Introducing product name.</p>
+              <p class="lead">Our lightest shoe, ever.</p>
               <button type="button" class="btn btn-dark btn-lg">Shop Now</button>
-            </div>
-            
-            
-          </div>
-          <div class="col-md-6 col-sm-6 col-lg-6">
-            <div class="welcome">
-              <img src="img/welcome-shoe.jpg" class="img-fluid">
             </div>
           </div>
         </div>
       </section>
       <!-- end welcome -->
       <!-- categories -->
-      <section class="container-fluid">
+      <section class="container-fluid welcome-cat">
         <div class="row">
           <div class="col-md-1 col-sm-1"></div>
           <div class="col-md-5 col-sm-5">
             <div class="card mb-3">
               <img src="img/welcome-men.jpg" class="card-img-top img-fluid" alt="...">
-              <div class="card-img-overlay">
-                <h5 class="card-title">Men</h5>
-              </div>
+              
+                <h1 class="card-title title-top">Men</h1>
+              
               <div class="card-body">
                 <a href="#" class="btn btn-primary">Shop Now</a>
               </div>
@@ -110,10 +105,10 @@
           </div>
           <div class="col-md-5 col-sm-5 ">
             <div class="card mb-3">
-              <img src="img/welcome-shoe.jpg" class="card-img-top img-fluid" alt="...">
-              <div class="card-img-overlay">
-                <h5 class="card-title">Women</h5>
-              </div>
+              <img src="img/welcome-ladies.jpg" class="card-img-top img-fluid" alt="...">
+              
+                <h1 class="card-title title-top">Women</h1>
+
               <div class="card-body">
                 <a href="#" class="btn btn-primary">Shop Now</a>
               </div>
@@ -151,108 +146,153 @@
 
         
           <div class="col-md-3 col-sm-12 slider-float-left">
-            <div class="card">
-              <img src="img/official-men.jpg" class="card-img-top img-fluid" alt="...">
-              <div class="card-img-overlay">
+            <div class="card mb-2">
+              <!-- modal btn -->
+              <a href="" data-toggle="modal" data-target="#exampleModal">
+                <img src="img/official-men.jpg" class="card-img-top img-fluid" alt="...">
+              </a>
+              <!-- end modal btn -->
+              
                 <h5 class="card-title sale-ticker-bg"><span class="sale-ticker">Sale</span></h5>
-              </div>
+             
               <div class="card-body">
-                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"> Add to Cart</i></a>
+                <a href="#" class="btn btn-primary center" role="button">Add to Cart</i></a>
                 <h6 class="card-title">Jordan X</h6>
                 <p class="text-muted">Ksh <span>1000</span></p>
               </div>
             </div>
         </div>
         <div class="col-md-3 col-sm-12 slider-float-left">
-            <div class="card">
+            <div class="card mb-2">
+              <!-- modal btn -->
+              <a href="" data-toggle="modal" data-target="#exampleModal">
               <img src="img/dark-brown.jpg" class="card-img-top img-fluid" alt="...">
-              <div class="card-img-overlay">
+            </a>
+            <!-- end modal btn -->
+              
                 <h5 class="card-title sale-ticker-bg"><span class="sale-ticker">Sale</span></h5>
-              </div>
+              
               <div class="card-body">
-                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"> Add to Cart</i></a>
+                <a href="#" class="btn btn-primary center" role="button">Add to Cart</a>
                 <h6 class="card-title">Jordan X</h6>
                 <p class="text-muted">Ksh <span>1000</span></p>
               </div>
             </div>
         </div>
         <div class="col-md-3 col-sm-12 slider-float-left">
-            <div class="card">
+            <div class="card mb-2">
+              <!-- modal btn -->
+              <a href="" data-toggle="modal" data-target="#exampleModal">
               <img src="img/official-women.jpg" class="card-img-top img-fluid" alt="...">
-              <div class="card-img-overlay">
+            </a>
+              <!-- end modal btn -->
                 <h5 class="card-title new-ticker-bg"><span class="new-ticker">New</span></h5>
-              </div>
+              
               <div class="card-body">
-                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"> Add to Cart</i></a>
+                <a href="#" class="btn btn-primary center" role="button">Add to Cart</a>
                 <h6 class="card-title">Jordan X</h6>
                 <p class="text-muted">Ksh <span>1000</span></p>
               </div>
             </div>
         </div>
         <div class="col-md-3 col-sm-12 slider-float-left">
-            <div class="card">
+            <div class="card mb-2">
               <img src="img/heel-dress.jpg" class="card-img-top img-fluid" alt="...">
-              <div class="card-img-overlay">
+              
                  <h5 class="card-title sale-ticker-bg"><span class="sale-ticker">Sale</span></h5>
-              </div>
+              
               <div class="card-body">
-                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"> Add to Cart</i></a>
+                <a href="#" class="btn btn-primary center">Add to Cart</a>
                 <h6 class="card-title">Jordan X</h6>
                 <p class="text-muted">Ksh <span>1000</span></p>
               </div>
             </div>
         </div>
       </div>
-      <!--  -->
+      <!-- end first slide  -->
+              <!-- single add to cart modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                <div class="col-md-4">
+                  <img src="img/blue-official.jpg" class="img-fluid" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <h3>nike air force 1</h3>
+                  <hr>
+                  <p>There are many variations of passages of Lorem Ipsum.</p>
+                  <hr>
+                  <span><del>Ksh 3000</del> Ksh 2999</span>
+                  <div class="clear-fix"></div>
+                  <h4>Description:</h4>
+                  <p class="text-muted">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+                </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <a href="checkout.html" type="button" class="btn btn-danger">Proceed Check Out</a>
+                <a href="" type="button" class="btn btn-primary">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end single add to cart modal -->
       <!--Second slide-->
     <div class="carousel-item">
         <div class="col-md-3 col-sm-12 slider-float-left">
-            <div class="card">
+            <div class="card mb-2">
               <img src="img/blue-official.jpg" class="card-img-top img-fluid" alt="...">
-              <div class="card-img-overlay">
+              
                 <h5 class="card-title new-ticker-bg"><span class="new-ticker">New</span></h5>
-              </div>
+              
               <div class="card-body">
-                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"> Add to Cart</i></a>
+                <a href="#" class="btn btn-primary center">Add to Cart</a>
                 <h6 class="card-title">Jordan X</h6>
                 <p class="text-muted">Ksh <span>1000</span></p>
               </div>
             </div>
         </div>
         <div class="col-md-3 col-sm-12 slider-float-left">
-            <div class="card">
+            <div class="card mb-2">
               <img src="img/light-brown.jpg" class="card-img-top img-fluid" alt="...">
-              <div class="card-img-overlay">
+              
                 <h5 class="card-title new-ticker-bg"><span class="new-ticker">New</span></h5>
-              </div>
+              
               <div class="card-body">
-                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"> Add to Cart</i></a>
+                <a href="#" class="btn btn-primary center">Add to Cart</a>
                 <h6 class="card-title">Jordan X</h6>
                 <p class="text-muted">Ksh <span>1000</span></p>
               </div>
             </div>
         </div>
          <div class="col-md-3 col-sm-12 slider-float-left">
-            <div class="card">
+            <div class="card mb-2">
               <img src="img/small-girls.jpg" class="card-img-top img-fluid" alt="...">
-              <div class="card-img-overlay">
+              
                 <h5 class="card-title sale-ticker-bg"><span class="sale-ticker">Sale</span></h5>
-              </div>
+              
               <div class="card-body">
-                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"> Add to Cart</i></a>
+                <a href="#" class="btn btn-primary center">Add to Cart</a>
                 <h6 class="card-title">Jordan X</h6>
                 <p class="text-muted">Ksh <span>1000</span></p>
               </div>
             </div>
         </div>
         <div class="col-md-3 col-sm-12 slider-float-left">
-            <div class="card">
+            <div class="card mb-2">
               <img src="img/casual-girl.jpg" class="card-img-top img-fluid" alt="...">
-              <div class="card-img-overlay">
+              
                 <h5 class="card-title sale-ticker-bg"><span class="sale-ticker">Sale</span></h5>
-              </div>
+             
               <div class="card-body">
-                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"> Add to Cart</i></a>
+                <a href="#" class="btn btn-primary center">Add to Cart</a>
                 <h6 class="card-title">Jordan X</h6>
                 <p class="text-muted">Ksh <span>1000</span></p>
               </div>
@@ -291,52 +331,52 @@
             <div class="carousel-item active">
 
           <div class="col-md-3 col-sm-12 slider-float-left">
-            <div class="card">
+            <div class="card mb-2">
               <img src="img/casual-wear.png" class="card-img-top img-fluid" alt="...">
-              <div class="card-img-overlay">
+              
                 <h5 class="card-title new-ticker-bg"><span class="new-ticker">New</span></h5>
-              </div>
+             
               <div class="card-body">
-                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"> Add to Cart</i></a>
+                <a href="#" class="btn btn-primary center">Add to Cart</a>
                 <h6 class="card-title">Jordan X</h6>
                 <p class="text-muted">Ksh <span>1000</span></p>
               </div>
             </div>
         </div>
         <div class="col-md-3 col-sm-12 slider-float-left">
-            <div class="card">
+            <div class="card mb-2">
               <img src="img/summer-wear.jpg" class="card-img-top img-fluid" alt="...">
-              <div class="card-img-overlay">
+              
                 <h5 class="card-title sale-ticker-bg"><span class="sale-ticker">Sale</span></h5>
-              </div>
+             
               <div class="card-body">
-                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</a>
+                <a href="#" class="btn btn-primary center">Add to Cart</a>
                 <h6 class="card-title">Jordan X</h6>
                 <p class="text-muted">Ksh <span>1000</span></p>
               </div>
             </div>
         </div>
          <div class="col-md-3 col-sm-12 slider-float-left">
-            <div class="card">
+            <div class="card mb-2">
               <img src="img/women-casual.jpg" class="card-img-top img-fluid" alt="...">
-              <div class="card-img-overlay">
+             
                  <h5 class="card-title sale-ticker-bg"><span class="sale-ticker">Sale</span></h5>
-              </div>
+             
               <div class="card-body">
-                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</a>
+                <a href="#" class="btn btn-primary center">Add to Cart</a>
                 <h6 class="card-title">Jordan X</h6>
                 <p class="text-muted">Ksh <span>1000</span></p>
               </div>
             </div>
         </div>
         <div class="col-md-3 col-sm-12 slider-float-left">
-            <div class="card">
+            <div class="card mb-2">
               <img src="img/pink-casual.jpg" class="card-img-top" alt="...">
-              <div class="card-img-overlay">
+              
                 <h5 class="card-title sale-ticker-bg"><span class="sale-ticker">Sale</span></h5>
-              </div>
+              
               <div class="card-body">
-                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</a>
+                <a href="#" class="btn btn-primary center">Add to Cart</a>
                 <h6 class="card-title">Jordan X</h6>
                 <p class="text-muted">Ksh <span>1000</span></p>
               </div>
@@ -347,52 +387,52 @@
       <!--Second slide-->
     <div class="carousel-item">
         <div class="col-md-3 col-sm-12 slider-float-left">
-            <div class="card">
+            <div class="card mb-2">
               <img src="img/girls-wear.jpg" class="card-img-top" alt="...">
-              <div class="card-img-overlay">
+              
                 <h5 class="card-title new-ticker-bg"><span class="new-ticker">New</span></h5>
-              </div>
+          
               <div class="card-body">
-                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</a>
+                <a href="#" class="btn btn-primary center">Add to Cart</a>
                 <h6 class="card-title">Jordan X</h6>
                 <p class="text-muted">Ksh <span>1000</span></p>
               </div>
             </div>
         </div>
         <div class="col-md-3 col-sm-12 slider-float-left">
-            <div class="card">
+            <div class="card mb-2">
               <img src="img/girls-pink.jpg" class="card-img-top" alt="...">
-              <div class="card-img-overlay">
+              
                 <h5 class="card-title new-ticker-bg"><span class="new-ticker">New</span></h5>
-              </div>
+           
               <div class="card-body">
-                <a href="#" class="btn btn-primary center"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</a>
+                <a href="#" class="btn btn-primary center">Add to Cart</a>
                 <h6 class="card-title">Jordan X</h6>
                 <p class="text-muted">Ksh <span>1000</span></p>
               </div>
             </div>
         </div>
         <div class="col-md-3 col-sm-12 slider-float-left">
-            <div class="card">
+            <div class="card mb-2">
               <img src="img/boys-wear.png" class="card-img-top" alt="...">
-              <div class="card-img-overlay">
+              
                 <h5 class="card-title sale-ticker-bg"><span class="sale-ticker">Sale</span></h5>
-              </div>
+             
               <div class="card-body">
-                <a href="#" class="btn btn-primary center" role="button">Add to Cart <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                <a href="#" class="btn btn-primary center" role="button">Add to Cart</a>
                 <h6 class="card-title">Jordan X</h6>
                 <p class="text-muted">Ksh <span>1000</span></p>
               </div>
             </div>
         </div>
          <div class="col-md-3 col-sm-12 slider-float-left">
-            <div class="card">
+            <div class="card mb-2">
               <img src="img/boys-black.jpg" class="card-img-top" alt="...">
-              <div class="card-img-overlay">
+              
                 <h5 class="card-title sale-ticker-bg"><span class="sale-ticker">Sale</span></h5>
-              </div>
+              
               <div class="card-body">
-                <a href="#" class="btn btn-primary center" role="button">Add to Cart <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                <a href="#" class="btn btn-primary center" role="button">Add to Cart</a>
                 <h6 class="card-title">Jordan X</h6>
                 <p class="text-muted">Ksh <span>1000</span></p>
               </div>
@@ -406,7 +446,6 @@
     <section class="container-fluid jumbotron">
       <h1 class="display-4 text-center">Never miss a drop!</h1>
       <p class="lead text-center">Receive updates about new products and promotions.</p>
-      <hr class="my-4">
       <div class="text-center">
         <a class="btn btn-primary btn-lg" href="#" role="button">JOIN OUR MAILING LIST</a>
       </div>
